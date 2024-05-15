@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 
 app.get("/", (req: Request, res: Response) => {
-  res.send("<h1>Hello Express.js</h1>");
+  res.send("OK");
 });
 
 app.use("/products", productRoutes);
