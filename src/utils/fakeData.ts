@@ -1,5 +1,4 @@
 import { faker } from "@faker-js/faker";
-
 export const generateFakeProducts = () => {
   return Array.from({ length: 35 }, (_, idx) => {
     return {

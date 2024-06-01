@@ -5,6 +5,7 @@ import productRoutes from "./routes/productRoutes";
 const app = express();
 
 app.use(express.json());
+app.set("view engine", "pug");
 
 app.get("/", (req: Request, res: Response) => {
   res.send("OK");
